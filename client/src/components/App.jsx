@@ -30,21 +30,57 @@ const Article = (props) => {
   );
 };
 
+class SearchBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      searchTopic: ''
+    };
+  }
+
+  handleChange(e) {
+    this.setState({
+      searchTopic: e.target.value
+    });
+  }
+
+  render() {
+    return (
+      <div className='search'>
+        <input
+          name='searchTopic'
+          value={this.state.searchTopic}
+          placeholder='Search Topic Here'
+          onChange={this.handleChange.bind(this)}
+        ></input>
+        <button
+          className='btn query-submission'
+          onClick={()=>this.props.handleInputSubmission(this.state.searchTopic)}
+        >Submit</button>
+
+      </div>
+
+    );
+  }
+}
+
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      articles: []
+      articles: [],
+      displayedTopic: 'Top Headlines',
     };
     this.getHeadlines = this.getHeadlines.bind(this);
+    this.handleInputSubmission = this.handleInputSubmission.bind(this);
   }
 
   componentDidMount() {
     this.getHeadlines();
   }
-
+  
   getHeadlines() {
-    var url = 'https://newsapi.org/v2/top-headlines?' +
+    const url = 'https://newsapi.org/v2/top-headlines?' +
     'country=us&' +
     `apiKey=${apiKey}`;
     const req = new Request(url);
@@ -57,10 +93,32 @@ class App extends React.Component {
       });
   }
 
+  handleInputSubmission(topic) {
+    const url = 'https://newsapi.org/v2/everything?' +
+      `q=${topic}` +
+      `&apiKey=${apiKey}` +
+      '&sortBy=publishedAt';
+    const req = new Request(url);
+    fetch(req)
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        this.setState({
+          articles: data.articles,
+          displayedTopic: topic
+        });
+      });
+  }
+
   render() {
     return (
       <div>
-        <h1>Top Headlines</h1>
+        <SearchBar
+          searchTopic={this.state.searchTopic}
+          handleInputSubmission={this.handleInputSubmission}
+        />
+        <h1>{this.state.displayedTopic}</h1>
         <div>
           {this.state.articles.map((article) => {
             return (
