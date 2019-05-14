@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./.apiKey.js":
+/*!********************!*\
+  !*** ./.apiKey.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nconst apiKey = {\n  apiKey: '50e9e1b5bd37490fb07a55ad99d4903d'\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (apiKey);\n\n//# sourceURL=webpack:///./.apiKey.js?");
+
+/***/ }),
+
 /***/ "./client/src/components/App.jsx":
 /*!***************************************!*\
   !*** ./client/src/components/App.jsx ***!
@@ -94,7 +106,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nclass App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      articles: []\n    };\n    this.getHeadlines = this.getHeadlines.bind(this);\n  }\n\n  render() {}\n\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./client/src/components/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _apiKey_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../.apiKey.js */ \"./.apiKey.js\");\n\n\nconst {\n  apiKey\n} = _apiKey_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n\nconst Author = props => {\n  const author = props.author;\n\n  if (author) {\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n      className: \"author\"\n    }, \"By \", author, \", \\xA0\\xA0\");\n  } else {\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n      className: \"author\"\n    }, \"Unknown Author, \\xA0\\xA0\");\n  }\n};\n\nconst Article = props => {\n  const {\n    author,\n    title,\n    description,\n    url,\n    urlToImage,\n    content,\n    publishedAt\n  } = props.article;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: url\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h3\", {\n    className: \"title\"\n  }, title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Author, {\n    author: author\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"publishedAt\"\n  }, \"Published \", publishedAt), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n    className: \"content\"\n  }, content));\n};\n\nclass App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      articles: []\n    };\n    this.getHeadlines = this.getHeadlines.bind(this);\n  }\n\n  componentDidMount() {\n    this.getHeadlines();\n  }\n\n  getHeadlines() {\n    var url = 'https://newsapi.org/v2/top-headlines?' + 'country=us&' + `apiKey=${apiKey}`;\n    const req = new Request(url);\n    fetch(req).then(res => {\n      return res.json();\n    }).then(data => {\n      this.setState({\n        articles: data.articles\n      });\n    });\n  }\n\n  render() {\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Top Headlines\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, this.state.articles.map(article => {\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Article, {\n        article: article,\n        key: article.url\n      });\n    })));\n  }\n\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./client/src/components/App.jsx?");
 
 /***/ }),
 
