@@ -1,0 +1,266 @@
+const mockData = {
+  "status": "ok",
+  "totalResults": 38,
+  -"articles": [
+  -{
+  -"source": {
+  "id": null,
+  "name": "Youtube.com"
+  },
+  "author": null,
+  "title": "NASA says the moon is shrinking and experiencing \"moonquakes\" - CBS News",
+  "description": "NASA says the moon is shrinking and it may be creating so-called \"moonquakes.\" Scientists say the moon's interior is cooling and causing it to shrivel up lik...",
+  "url": "https://www.youtube.com/watch?v=yZf5B9FVouk",
+  "urlToImage": "https://i.ytimg.com/vi/yZf5B9FVouk/hqdefault.jpg",
+  "publishedAt": "2019-05-14T02:34:40Z",
+  "content": "NASA says the moon is shrinking and it may be creating so-called \"moonquakes.\" Scientists say the moon's interior is cooling and causing it to shrivel up like a raisin. The shrinking has caused ridges on the moon's surface called \"thrust faults\" -- where one … [+119 chars]"
+  },
+  -{
+  -"source": {
+  "id": "fox-news",
+  "name": "Fox News"
+  },
+  "author": null,
+  "title": "Barr assigns US attorney in Connecticut to look into government surveillance involving Trump campaign: source - Fox News",
+  "description": "Attorney General William Barr has appointed a U.S. attorney to examine the origins of the Russia investigation and determine if intelligence collection efforts targeting the Trump campaign were \"lawful and appropriate,\" a person familiar with the situation to…",
+  "url": "https://www.foxnews.com/politics/barr-us-attorney-connecticut-surveillance-trump-campaign",
+  "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/05/John-H.-Durham-.jpg",
+  "publishedAt": "2019-05-14T02:30:50Z",
+  "content": "Attorney General William Barr has appointed a U.S. attorney to examine the origins of the Russia investigation and determine if intelligence collection efforts targeting the Trump campaign were \"lawful and appropriate,\" a person familiar with the situation to… [+5859 chars]"
+  },
+  -{
+  -"source": {
+  "id": "the-washington-post",
+  "name": "The Washington Post"
+  },
+  "author": null,
+  "title": "Dogs quarantined after officials detect a vicious disease. Humans could be at risk, too. - The Washington Post",
+  "description": "Canine brucellosis, which causes reproductive issues in dogs, can infect people through contaminated blood, urine, milk or other reproductive fluids.",
+  "url": "https://www.washingtonpost.com/science/2019/05/14/dogs-quarantined-after-officials-detect-vicious-disease-humans-could-be-risk-too/",
+  "urlToImage": "https://www.washingtonpost.com/resizer/QEQzcZm2rX_qsHbdH-P3bOZFgnk=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VSF6EODTGAI6TEZRGC6FQNXURY.jpg",
+  "publishedAt": "2019-05-14T02:27:01Z",
+  "content": "A small-dog commercial breeding facility in Marion County, Iowa, is the source of multiple cases of a canine disease that can be transmitted to humans, the states agriculture department said.\r\nCanine brucellosis is highly contagious among dogs and may cause c… [+4148 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Slashgear.com"
+  },
+  "author": "JC Torres",
+  "title": "Pixel 3a headphone jack was a heavily debated decision - SlashGear",
+  "description": "By now, the Pixel 3a has sunk into most mobile-focused people’s consciousness. It has been praised for a lot of things but one understated feature is perhaps the return of the headphone jack.…",
+  "url": "https://www.slashgear.com/pixel-3a-headphone-jack-was-a-heavily-debated-decision-13576482/",
+  "urlToImage": "https://edge.slashgear.com/wp-content/uploads/2019/05/IMG_20190507_114621-3.jpg",
+  "publishedAt": "2019-05-14T02:18:00Z",
+  "content": "By now, the Pixel 3a has sunk into most mobile-focused people’s consciousness. It has been praised for a lot of things but one understated feature is perhaps the return of the headphone jack. If you were hoping that Google has finally reconsidered its decisio… [+1732 chars]"
+  },
+  -{
+  -"source": {
+  "id": "fox-news",
+  "name": "Fox News"
+  },
+  "author": "Chad Pergram",
+  "title": "Why the US-China trade war could settle the 2020 election in 2019 - Fox News",
+  "description": "The scrap with China over tariffs and the stock market plunge could reshape the presidential sweepstakes.",
+  "url": "https://www.foxnews.com/politics/us-china-trade-war-larry-kudlow-chuck-grassley-donald-trump-roy-blunt-kevin-cramer",
+  "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/04/ContentBroker_contentid-6e40d21f6e004079b18868f8d5e8dc4e.png",
+  "publishedAt": "2019-05-14T02:14:35Z",
+  "content": "It's possible that the 2020 presidential election could hinge on the past few days.\r\nThe scrap with China over tariffs and the stock market plunge could reshape the presidential sweepstakes. A post-mortem of the 2020 presidential election could focus on event… [+6116 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Latimes.com"
+  },
+  "author": "Broderick Turner",
+  "title": "Lakers enter NBA draft lottery with slim chance of landing No. 1 pick - Los Angeles Times",
+  "description": "The Los Angeles Lakers will find out where they'll pick and what the future holds for the franchise during Tuesday's NBA draft lottery.",
+  "url": "https://www.latimes.com/sports/lakers/la-sp-lakers-nba-draft-lottery-20190513-story.html",
+  "urlToImage": "https://www.latimes.com/resizer/jZ2oirF8mPm4P8wxIPPPHkTcbuc=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/NUCE3B3QW5GY3NO2CIMCHSKOJ4.jpg",
+  "publishedAt": "2019-05-14T02:10:00Z",
+  "content": "The Lakers have entered the NBAs lottery sphere for the sixth consecutive time, the truest ominous sign of how far they have fallen from their once mighty perch among the leagues elite and it is a telling signature for the challenges newly hired coach Frank V… [+2834 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Npr.org"
+  },
+  "author": "",
+  "title": "California Jury Awards $2 Billion To Couple In Roundup Weed Killer Cancer Trial - NPR",
+  "description": "The verdict represents the third time a California jury has decided in favor of consumers who claimed their cancer was caused by the glyphosate-based Roundup weed killer.",
+  "url": "https://www.npr.org/2019/05/13/723056453/california-jury-awards-2-billion-to-couple-in-roundup-weed-killer-cancer-trial",
+  "urlToImage": "https://media.npr.org/assets/img/2019/05/13/ap_19120747441740_wide-e2c04b05e02f7424699d9a797797ce0b8ebbd8ee.jpg?s=1400",
+  "publishedAt": "2019-05-14T02:07:00Z",
+  "content": "Containers of Roundup are displayed on a store shelf in San Francisco. A third California jury has awarded a multimillion-dollar court judgment against the herbicide.\r\nHaven Daley/AP\r\nA California jury has awarded a couple more than $2 billion in a verdict ag… [+2995 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Marketwatch.com"
+  },
+  "author": "Therese Poletti",
+  "title": "Apple’s loss at the Supreme Court is ‘a big victory for consumers’ fighting Big Tech’s app and platform monopolies - MarketWatch",
+  "description": "Apple Inc. was dealt a major setback in an eight-year-old lawsuit over the app store by the U.S. Supreme Court on Monday, in a decision that could have a...",
+  "url": "https://www.marketwatch.com/story/apples-loss-at-the-supreme-court-is-a-big-victory-for-consumers-fighting-big-techs-app-and-platform-monopolies-2019-05-13",
+  "urlToImage": "http://s.marketwatch.com/public/resources/MWimages/MW-HJ477_appsto_ZG_20190513204034.jpg",
+  "publishedAt": "2019-05-14T02:05:00Z",
+  "content": "The U.S. Supreme Court dealt Apple Inc. a major setback in an eight-year-old lawsuit over the App Store on Monday, but the bigger news is the big effect it could have on Big Tech.\r\nThe Supreme Court ruled Monday that plaintiffs have a right to sue Apple AAPL,… [+4882 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Theringer.com"
+  },
+  "author": "Rodger Sherman",
+  "title": "‘The Bachelorette’ Recap: Have You Heard That Hannah Is a Bama Fan? - The Ringer",
+  "description": "Because most of the guys have. Roll Tide!",
+  "url": "https://www.theringer.com/tv/2019/5/13/18618368/the-bachelorette-season-15-premiere-recap-hannah",
+  "urlToImage": "https://cdn.vox-cdn.com/thumbor/Ny_4m_pD89JDfIJB8nzsdwk5tk8=/0x0:3000x1571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16257055/151662_3058.jpg",
+  "publishedAt": "2019-05-14T02:02:00Z",
+  "content": "I have attended three of the last four College Football Playoff National Championship games, all featuring the University of Alabama. And I swear, even standing on the field with the Crimson Tide after they won, I dont think Ive ever heard the words Roll Tide… [+14258 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Etonline.com"
+  },
+  "author": "Zach Seemayer‍",
+  "title": "Jenelle Evans’ Sons Removed from Her Custody by Child Protective Services - Entertainment Tonight",
+  "description": "The former 'Teen Mom 2' star is facing new legal repercussions amid her husband's dog-shooting controversy.",
+  "url": "https://www.etonline.com/jenelle-evans-sons-removed-from-her-custody-by-child-protective-services-125192",
+  "urlToImage": "https://www.etonline.com/sites/default/files/styles/max_1280x720/public/images/2019-05/jenelle_evans_gettyimages-1096270890_1280.jpg?itok=bh6-CCqT",
+  "publishedAt": "2019-05-14T01:51:35Z",
+  "content": "Jenelle Evans continues to suffer from the fallout of her husband's actions. \r\nA source tells ET that two of Evans’ children have been removed from her custody by Child Protective Services of Columbus County, North Carolina, after Evans’ husband, David Eason,… [+2715 chars]"
+  },
+  -{
+  -"source": {
+  "id": "ign",
+  "name": "IGN"
+  },
+  "author": null,
+  "title": "Game of Thrones S8 Ep 5: \"The Bells\" Review - IGN",
+  "description": "This review contains spoilers for Game of Thrones Season 8, episode 5, &quot;The Bells.&quot;",
+  "url": "https://www.ign.com/articles/2019/05/14/game-of-thrones-s8-ep-5-review",
+  "urlToImage": "https://assets1.ignimgs.com/2019/05/12/game-of-thrones-s8-ep5-review-blog-1557702318773_1280w.jpg",
+  "publishedAt": "2019-05-14T01:50:00Z",
+  "content": "By Laura PrudomThis review contains spoilers for Game of Thrones Season 8, episode 5, \"The Bells.\" For more, check out every character who has died on Game of Thrones so far; our theory about why Varys removed his rings in this episode; how \"The Bells\" echoes… [+19406 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Thedailybeast.com"
+  },
+  "author": "Rick Wilson",
+  "title": "Viktor Orban Is the Authoritarian Creep Trump Wishes He Could Be - Daily Beast",
+  "description": "Donald Trump says he’s the richest guy around. Orban really is, after decades using his office to loot his country.",
+  "url": "https://www.thedailybeast.com/authoritarian-creep-viktor-orban-is-walking-the-walk-that-donald-trump-talks",
+  "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1687,w_3000,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1557793586/190513-wilson-trump-orban-tease_kds48v",
+  "publishedAt": "2019-05-14T00:26:00Z",
+  "content": "Donald Trump, a President who never met a dictator without falling in love, must have felt both utterly intrigued and slightly shorted by his visit with Hungarian President Viktor Orban today. Orban had been frozen out of both the Bush and Obama White House a… [+745 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Freep.com"
+  },
+  "author": "Orion Sang",
+  "title": "First priority in Michigan basketball's coaching search: 'Get it right' - Detroit Free Press",
+  "description": "Michigan athletic director Warde Manuel has no timeline for his search to replace John Beilein, now with Cleveland Cavaliers",
+  "url": "https://www.freep.com/story/sports/college/university-michigan/wolverines/2019/05/13/michigan-basketball-coaching-search-warde-manuel/1193230001/",
+  "urlToImage": "https://www.gannett-cdn.com/-mm-/10e6b672e120c1f0ee2cd4aee555996ab7889b60/c=0-131-1776-1134/local/-/media/2018/04/18/DetroitFreeP/DetroitFreePress/636596544611724171-04182018-icc-presser-13.jpg?width=3200&height=1680&fit=crop",
+  "publishedAt": "2019-05-14T00:26:00Z",
+  "content": "Michigan athletic director Warde Manuel 'surprised' by John Beilein's departure to Cleveland Cavaliers, May 13, 2019.\r\n Orion Sang, Detroit Free Press\r\nROSEMONT, Ill. — Last spring, Warde Manuel told reporters here at Big Ten headquarters that he wanted John … [+5950 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Espn.com"
+  },
+  "author": null,
+  "title": "Broncos' Flacco: It's not my job to groom Lock - ESPN",
+  "description": "Joe Flacco says his job description doesn't include grooming his successor, so he suggests rookie Drew Lock sit back and watch him work and ask plenty of questions -- of offensive coordinator Rich Scangarello.",
+  "url": "http://www.espn.com/nfl/story/_/id/26740592/not-my-job-groom-lock",
+  "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0514%2Fr542692_1296x729_16%2D9.jpg",
+  "publishedAt": "2019-05-14T00:24:25Z",
+  "content": "ENGLEWOOD, Colo. -- Joe Flacco says his job description doesn't include grooming his successor, so he suggests rookie Drew Lock sit back and watch him work and ask plenty of questions -- of offensive coordinator Rich Scangarello.\r\n\"Listen, I have so many thin… [+3138 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Youtube.com"
+  },
+  "author": null,
+  "title": "Lenovo's Foldable PC Prototype Hands-On: The Future of 2-in-1's - Engadget",
+  "description": "We got a chance to get our hands on Lenovo's new early prototype foldable PC. This device has some familiar features like an OLED screen and Bluetooth keyboa...",
+  "url": "https://www.youtube.com/watch?v=NmEI95YdaZU",
+  "urlToImage": "https://i.ytimg.com/vi/NmEI95YdaZU/maxresdefault.jpg",
+  "publishedAt": "2019-05-14T00:13:28Z",
+  "content": "We got a chance to get our hands on Lenovo's new early prototype foldable PC. This device has some familiar features like an OLED screen and Bluetooth keyboard, but unlike other 2-in-1 laptops, the entire device can fold in half. This let's it fold up to arou… [+640 chars]"
+  },
+  -{
+  -"source": {
+  "id": "the-new-york-times",
+  "name": "The New York Times"
+  },
+  "author": null,
+  "title": "White House Reviews Military Plans Against Iran, in Echoes of Iraq War - The New York Times",
+  "description": "The plans call for up to 120,000 American troops but not a land invasion of Iran. They were updated at the request of John R. Bolton, the national security adviser.",
+  "url": "https://www.nytimes.com/2019/05/13/world/middleeast/us-military-plans-iran.html",
+  "urlToImage": "https://static01.nyt.com/images/2019/05/13/us/politics/13dc-military1/13dc-military1-facebookJumbo.jpg",
+  "publishedAt": "2019-05-13T23:46:48Z",
+  "content": "We are very worried about the risk of a conflict happening by accident, with an escalation that is unintended really on either side, said Jeremy Hunt, the British foreign secretary. \r\nThe Iranian government has not threatened violence recently, but last week,… [+1536 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Latimes.com"
+  },
+  "author": "Matthew Ormseth, Richard Winton",
+  "title": "Tearful Felicity Huffman explains why she got involved in college admissions scandal - Los Angeles Times",
+  "description": "As Felicity Huffman pleaded guilty in the college admissions scandal, she said her daughter did have a legitimate learning disability.",
+  "url": "https://www.latimes.com/local/lanow/la-me-felicity-huffman-college-admissions-comments-court-20190513-story.html",
+  "urlToImage": "https://www.latimes.com/resizer/SRXlouaTHVQfsWNf3MCqhTwMKOA=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/ZZY5YZP43FGJ5OCEIAEHA7MZKU.jpg",
+  "publishedAt": "2019-05-13T23:35:00Z",
+  "content": "Huffman told the court in Boston that the federal governments allegations were true but insisted her daughter was diagnosed years earlier with a legitimate learning disability that made her eligible for extra time on tests.\r\nMy daughter has been seeing a neur… [+1201 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Tidesports.com"
+  },
+  "author": "TideSports",
+  "title": "Justin Thomas withdraws from PGA with wrist injury - TideSports.com",
+  "description": "Associated Press FARMINGDALE, N.Y. — Justin Thomas withdrew from the PGA Championship on Monday, saying he was not willing to risk more pain in his right wrist by returning before it’s fully healed. The former University of Alabama player, who won the PGA Cha…",
+  "url": "https://www.tidesports.com/justin-thomas-withdraws-from-pga-with-wrist-injury/",
+  "urlToImage": "https://www.tidesports.com/wp-content/uploads/2019/05/1023034499-AL_TUS_AP19129151323130.jpg",
+  "publishedAt": "2019-05-13T23:31:00Z",
+  "content": "Associated Press\r\nFARMINGDALE, N.Y. Justin Thomas withdrew from the PGA Championship on Monday, saying he was not willing to risk more pain in his right wrist by returning before it’s fully healed.\r\nThe former University of Alabama player, who won the PGA Cha… [+1945 chars]"
+  },
+  -{
+  -"source": {
+  "id": null,
+  "name": "Hollywoodreporter.com"
+  },
+  "author": "Jackie Strause",
+  "title": "'Veep' Series Finale: Boss David Mandel Unpacks \"Exquisite Torture\" in Ending - Hollywood Reporter",
+  "description": "Showrunner David Mandel speaks to The Hollywood Reporter about the biggest reveals from the HBO political comedy's series finale, including that \"heartbreaking\" betrayal, and \"a six-second tour de force\" from Julia Louis-Dreyfus.",
+  "url": "https://www.hollywoodreporter.com/live-feed/veep-series-finale-boss-david-mandel-unpacks-exquisite-torture-ending-1210254",
+  "urlToImage": "https://cdn1.thr.com/sites/default/files/2019/05/veep_and_inset_of_david_mandel_-h_2019.jpg",
+  "publishedAt": "2019-05-13T23:17:56Z",
+  "content": "[This story contains spoilers from the series finale of HBO's Veep, titled \"Veep.\"]\r\nThe day after Veep aired its series finale and bid a bitter farewell to Selina Meyer, showrunner David Mandel was running on only a few hours sleep. The night prior, he joine… [+30825 chars]"
+  },
+  -{
+  -"source": {
+  "id": "usa-today",
+  "name": "USA Today"
+  },
+  "author": "Kristin Lam",
+  "title": "Low-dose aspirin may be linked to bleeding in the skull, new study finds - USA TODAY",
+  "description": "For people without heart disease, a new study found taking low-dose aspirin is associated with an increased risk for bleeding within the skull.",
+  "url": "https://www.usatoday.com/story/news/nation/2019/05/13/low-dose-aspirin-tied-bleeding-within-skull-study-says/1194102001/",
+  "urlToImage": "https://www.gannett-cdn.com/presto/2019/03/18/USAT/5831d471-faec-46d0-ad43-b05b25accfcd-AP_Aspirin_Heart_Attacks.JPG?crop=4499,2521,x0,y0&width=3200&height=1680&fit=bounds",
+  "publishedAt": "2019-05-13T23:14:00Z",
+  "content": "A daily low-dose aspirin has been touted by many doctors in preventing heart attacks. But a new study suggests that it might do more harm than good.\r\n Just the FAQs, USA TODAY\r\nFor people without heart disease, a new study found taking low-dose aspirin is ass… [+2061 chars]"
+  }
+  ]
+  }
